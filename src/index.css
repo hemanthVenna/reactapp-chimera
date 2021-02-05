@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.inputStyle{
+  width: 240px;
+    padding: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.alignCenter {
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  margin: 20px 10px;
+  background: #000;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.Modal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding:15px;
+}
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  
+}
